@@ -4,7 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng build --project counter-components --output-hashing none; ng serve --project app",
-    "build:prod": "ng build --project counter-components --output-hashing none; ng build --project app",
+    "build:counter-components": "ng build --project counter-components --output-hashing none --prod",
+    "build:counter-app": "ng build --project app --prod",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "jest",
